@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The Band</title>
+        <link rel="icon" href="./assets/img/icon/guitar.png" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/font-icon/themify-icons-font/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="/html-learn/Responsive/Grid-system/create-grid.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="header">
+
+                <!-- Begin: Navigation -->
+                <!-- Gõ nhanh: ul#navigation>li*5>a + tab -->
+                <ul id="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#band">Band</a></li>
+                    <li><a href="#tour">Tour</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="#">
+                            More
+                            <i class=" nav-arrow-down ti-angle-down"></i>
+                        </a>
+                        <ul class="sub-navigation">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- End: Navigation -->
+                
+                <!-- Begin: search button -->
+                <div class="search-button">
+                    <i class="search-icon ti-search"></i>
+                </div>
+                <!-- End: search button -->
+
+                <div id="js-mob-menu-button" class="mobile-menu-button">
+                    <i class=" menu-icon ti-menu"></i>
+                </div>
+            </div>
+
+            <div id="slider">
+                <div class="text">
+                    <div class="text-head">
+                        <h3>Chicago</h3>
+                    </div>
+
+                    <div class="text-descrip">
+                        <p>Thank you Chicago - A night won't forget.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content">
+                <!-- Begin content-->
+                <!-- About introduce -->
+                <!-- Dùng để chứa các class giống nhau về design -->
+                <div id="band" class="content-section">
+                    <h2 class="section-head text-center">THE BAND</h2>
+                    <p class="section-subHead text-center">We love music</p>
+                    <p class="about-intro">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    
+                    <div class="row team-member">
+                        <div class="member-item column column-third text-center">
+                            <p class="name">Name</p>
+                            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Member's name" class="avata">
+                        </div>
+                        
+                        <div class="member-item column column-third text-center">
+                            <p class="name">Name</p>
+                            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Member's name" class="avata">
+                        </div>  
+
+                        <div class="member-item column column-third text-center">
+                            <p class="name">Name</p>
+                            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Member's name" class="avata">
+                        </div> 
+
+                        <!-- Giải quyết vấn đề thẻ cha bao quanh thẻ con của float -->
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+
+                <!-- Tour -->
+                <div id="tour" class="tour-section">
+                    <div class="content-section">
+                        <h2 class="section-head text-center text-white">TOUR DATES</h2>
+                        <p class="section-subHead text-center text-white">Remember to book your tickets!</p>
+                    
+                        <!-- Book ticket -->
+                        <ul class="book-ticket" >
+                            <li>September <span class="sold-out text-white">Sold out</span></li>
+                            <li>October <span class="sold-out text-white">Sold out</span></li>
+                            <li>November <span class="quantity text-white">3</span></li>
+                        </ul>
+
+                        <!-- Location -->
+                        <div class="row buy-ticket">
+                            <div class="member-item column column-third">
+                                <img src="./assets/img/content/c1.jpg" alt="New York" class="location-img">
+                                <div class="infor-item">
+                                    <h4 class="loca-head">New York</h4>
+                                    <p class="time">Fri 27 Nov 2016</p>
+                                    <p class="infor">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="b-full-width buy-button js-buy-ticket text-white">Buy Tickets</button>
+                                </div>
+                            </div>
+
+                            <div class="member-item column column-third">
+                                <img src="./assets/img/content/c2.jpg" alt="Paris" class="location-img">
+                                <div class="infor-item">
+                                    <h4 class="loca-head">Paris</h4>
+                                    <p class="time">Sat 28 Nov 2016</p>
+                                    <p class="infor">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="b-full-width buy-button js-buy-ticket text-white">Buy Tickets</button>
+                                </div>
+                            </div>
+
+                            <div class="member-item column column-third">
+                                <img src="./assets/img/content/c3.jpg" alt="San Francisco" class="location-img">
+                                <div class="infor-item">
+                                    <h4 class="loca-head">San Francisco</h4>
+                                    <p class="time">Sun 29 Nov 2016</p>
+                                    <p class="infor">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="b-full-width buy-button js-buy-ticket text-white">Buy Tickets</button>
+                                </div>
+                            </div>
+                        
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div id="contact" class="content-section">
+                    <h2 class="section-head text-center">CONTACT</h2>
+                    <p class="section-subHead text-center">Fan? Drop a note!</p>
+                
+                    <div class="row contact">
+                        <!-- Infor contact -->
+                        <div class="box-item column column-half contact-content">
+                            <p class="infor-contact"><i class="contact-icon ti-location-pin"></i>Chicago, US</p>
+                            <p class="infor-contact"><i class="contact-icon ti-headphone-alt"></i>Phone: +00 151515</p>
+                            <p class="infor-contact"><i class="contact-icon ti-email"></i>Email: mail@mail.com</p>
+                        </div>
+
+                        <!-- Send mail -->
+                        <div class="box-item column column-half send-contact">
+                            <form action="">
+                                <div class="row input-send">
+                                    <div class="box-item column column-half">
+                                        <input type="text" name="" required placeholder="Name" id="" class="form-control">
+                                    </div>
+                                    <div class="box-item column column-half">
+                                        <input type="email" name="" required placeholder="Email" id="" class="form-control">
+                                    </div>
+
+                                </div>
+                                <div class="row input-send">
+                                    <div class="column column-full input-send">
+                                        <input type="text" name="" required placeholder="Message" id="" class="form-control">
+                                    </div>
+                                </div>
+                                
+                                <!-- Nút SEND -->
+                                <input type="submit" value="SEND" class="s-full-width button-send">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            <!-- End content-->
+
+                <!-- Map     -->
+                <div class="map">
+                    <img src="./assets/img/content/map.jpg" alt="">
+                </div>
+            </div>
+
+            <div id="footer">
+                <div class="brand-list">
+                    <a href=""><i class="ti-facebook icon-brand"></i></a>
+                    <a href=""><i class="ti-instagram icon-brand"></i></a>
+                    <a href=""><i class="ti-github icon-brand"></i></a>
+                    <a href=""><i class="ti-twitter-alt icon-brand"></i></a>
+                    <a href=""><i class="ti-linkedin icon-brand"></i></a>
+                </div>
+                <div class="link-web">
+                    <p>Powered by <a href="https://www.facebook.com/phuonglinh.pham.2602/">w3.css</a></p>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Div cho phần mua vé nổi lên (như form login) -->
+        <div class="modal">
+            <div class="modal-container js-modal-container">
+                <!-- Nút close -->
+                <div class="modal-close js-modal-close">
+                    <i class="ti-close">
+
+                    </i>
+                </div>
+
+                <!-- Có thể xài div hoặc header -> làm header container -->
+                <header class="modal-header">
+                    <i class="modal-head-icon ti-bag"></i>
+                    Tickets
+                </header>
+
+                <!-- Làm body modal -->
+                <div class="modal-body">
+                                    <!-- How many? -->
+                                <!-- for của label chỉ áp dụng với id của input đó -->
+                    <label for="count" class="modal-label">
+                        <i class="modal-body-icon ti-shopping-cart"></i>
+                         Tickets, $15 per person
+                    </label>
+                    <input id="count" type="text" class="modal-input" placeholder="How many?">
+
+                                    <!-- Send to -->
+                    <label for="mail" class="modal-label">
+                        <i class="modal-body-icon ti-user"></i>
+                        Send To
+                    </label>
+                    <input id="mail" type="email" class="modal-input" placeholder="Enter email...">
+
+                    <button id="pay-ticket">
+                        PAY
+                        <i class="ti-check"></i>
+                    </button>
+                </div>
+
+                <footer class="modal-footer">
+                    <p class="modal-help">Need <a href="#">help?</a></p>
+                </footer>
+            </div>
+        </div>
+
+        <script>
+            //Hiện tab form mua vé
+                //Lấy ra all class trùng với class cần vào 
+            const buyButton_list = document.querySelectorAll('.js-buy-ticket')
+            const modal = document.querySelector('.modal')
+            const modalContainer = document.querySelector('.js-modal-container')
+                //chạy đoạn lệnh
+            function showForm() {
+                modal.classList.add('open')
+            }
+            for (const buyButton of buyButton_list) {
+
+                //Lắng nghe hành vi click của người dùng
+                buyButton.addEventListener('click', showForm)
+            }
+            //------------------------------------------------------------
+            //Ẩn tab form mua vé
+            const closeForm = document.querySelector('.js-modal-close')
+            function hideForm() {
+                modal.classList.remove('open')
+            }
+            closeForm.addEventListener('click', hideForm)
+
+            //------------------------------------------------------------
+            //Đóng tab khi nhấn bất kỳ vùng ngoài
+            //Vùng ngoài chính là class: modal (phủ bóng mờ)
+            modal.addEventListener('click', hideForm)
+
+            //------------------------------------------------------------
+            //Chặn hành vi mặc định của lớp cha từ modal-container trở xuống
+            modalContainer.addEventListener('click', function (event) {
+                event.stopPropagation()
+            })
+        </script>
+
+        <script>
+
+                //ĐÓNG - MỞ MENU MOBILE
+            //Thanh menu cho Mobile Menu
+            var header = document.getElementById('header');  //Lấy id của ID header
+            var mobileMenu = document.getElementById('js-mob-menu-button');
+
+            var header_height = header.clientHeight;
+
+            //Đoạn code trong function sẽ run khi click vào icon Menu
+            mobileMenu.onclick = function() {
+                //Ktra đang đóng hay không
+                var isClosed = header.clientHeight === header_height;
+                
+                if (isClosed) {
+                    header.style.height = 'auto';
+                }
+                else {
+                    header.style.height = '46.5px';
+                }
+            }
+
+                //ĐÓNG MENU KHI CLICK VÀO
+                var menuItems = document.querySelectorAll('#navigation li a[href*="#"]');
+                for(var i=0; i < menuItems.length; i++) {
+                    var a__menuItem = menuItems[i];
+                    
+                    a__menuItem.onclick = function(event) {  
+                        //KHÔNG ẨN MENU CỦA MORE
+                        //Hiện phần More - Nếu mà có ace liền kề && ace liền kề đó chứa class sub-nav --> menu cha của sub-nav
+                        var isParentMenu = this.nextElementSibling && a__menuItem.nextElementSibling.classList.contains('sub-navigation'); 
+                            
+                        if (isParentMenu) {
+                            //Bỏ qua hành vi mặc định
+                            event.preventDefault();
+                        }
+                        else {
+                            header.style.height = '46.5px';  //Bật height lên --> overflow tràn ra
+                        }
+                    }
+                }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+/* RESPONSIVE */
+
+/* PC */
+@media (min-width: 1024px) {
+    #header .mobile-menu-button {
+        display: none;
+    }
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #header .mobile-menu-button {
+        display: none;
+    }
+
+}
+
+/* TABLET & MOBILE */
+@media (max-width: 1023px) {
+    .buy-button {
+        padding: 15px 16px;
+    }
+
+    #footer .brand-list {
+        font-size: 33px;
+        letter-spacing: 4px;
+    }
+
+    #footer .link-web {
+        font-size: 18px;
+        display: inline-block;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 739px) {
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .b-full-width {
+        width: 100% !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    /* Khiến user nhấn row của button đó vẫn trỏ được */
+    #navigation {
+        display: block;
+    }    
+
+    #navigation > li {
+        display: block;
+    }
+
+    #navigation > li:first-child {
+        display: inline-block;
+    }
+
+    #navigation .sub-navigation {
+        position: initial;
+
+        background-color: #333;
+    }
+
+    #navigation .sub-navigation a {
+        color: #fff;
+        padding: 5px 42px;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .avata {
+        width: 60%;
+    }
+
+    #content .box-item {
+        width: 100%;
+        margin-top: 8px;
+    }
+}
