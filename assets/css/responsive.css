@@ -1,14 +1,14 @@
 /* RESPONSIVE */
 
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     #header .mobile-menu-button {
         display: none;
     }
 }
 
 /* TABLET */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 48em) and (max-width: 63.9375em) {
     #header .mobile-menu-button {
         display: none;
     }
@@ -16,7 +16,7 @@
 }
 
 /* TABLET & MOBILE */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .buy-button {
         padding: 15px 16px;
     }
@@ -33,7 +33,7 @@
 }
 
 /* MOBILE */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
     .s-full-width {
         width: 100% !important;
     }
