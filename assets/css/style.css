@@ -188,7 +188,8 @@ html {
     bottom: 48px;
     left: 50%;
     transform: translateX(-50%);
-
+    
+    text-shadow: 0 0 1px #000;
     /* Cách 2 căn giữa:
     width: 100%; */
 
